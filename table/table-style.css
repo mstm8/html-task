@@ -1,0 +1,25 @@
+@charset "utf-8";
+table, th, td{
+    border: 3px solid ;
+    border-collapse: collapse;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+th, td{
+    padding: 10px;
+}
+h1{
+    margin-bottom: 0px;
+}
+body{
+    font-family: "HGP行書体", serif;
+}
+th{
+    background-color: rgb(255, 6, 6);
+    font-size: 25px;
+}
+td{
+    font-size: 25px;
+}
