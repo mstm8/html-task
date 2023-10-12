@@ -1,0 +1,20 @@
+@charset "utf-8";
+div{
+    background-color: blue;
+    color: #ffffff;
+    font-size: 20px;
+}
+.text-yello{
+    color: yellow;
+}
+li{
+    background-color: violet;
+    list-style-position: inside;
+    font-size: 20px;
+}
+span{
+    color: navy;
+}
+.bg-aliceblue{
+    background-color: aliceblue;
+}
