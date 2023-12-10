@@ -1,0 +1,29 @@
+@charset "utf-8";
+.frame{
+    display: flow-root;
+}
+.float-right{
+    float: right;
+    width: 50%;
+    margin-top: 1rem;
+    margin-left: 0.7rem;
+}
+main{
+    margin: 0 1rem;
+}
+iframe{
+    margin: 10px 0;
+}
+.center{
+    text-align: center;
+}
+.frame li{
+    list-style: "▲";
+}
+h1 a{
+    text-decoration: none;
+    color: black;
+}
+p{
+    margin-left: 1rem;
+}

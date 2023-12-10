@@ -1,0 +1,16 @@
+@charset "utf-8";
+.color-p{
+    color: purple;
+}
+.box{
+    display: flex;
+}
+main{
+    margin: 0 1rem;
+}
+img{
+    margin: 1rem;
+}
+p{
+    margin: 0 1rem;
+}

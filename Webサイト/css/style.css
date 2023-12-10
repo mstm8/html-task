@@ -1,0 +1,84 @@
+@charset "utf-8";
+header{
+    background-color: lightblue;
+    width: 100%;
+    padding: 0.5rem 0;
+}
+header nav ul,footer ul{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+}
+header nav ul li{
+    width: 20%;
+    text-align: center;
+}
+header nav ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 0.5rem;
+    color: midnightblue;
+    font-weight: bold;
+}
+body{
+    margin: 0;
+    min-width: 700px;
+    background-color: bisque;
+    background: repeating-linear-gradient(90deg, bisque 0%, rgb(93, 93, 255) 50%, bisque 100%);
+}
+header ul li + li{
+    border-left: 2px solid firebrick;
+}
+.breadcrumbs{
+    display: flex;
+    list-style: none;
+}
+.breadcrumbs li::after{
+    content: ">";
+    padding: 0 0.5rem;
+}
+.breadcrumbs li:last-child::after{
+    content: "";
+}
+.breadcrumbs li a:link{
+    color: crimson;
+}
+.breadcrumbs li a:visited{
+    color: seagreen;
+}
+.breadcrumbs li a:hover{
+    text-decoration: none;
+}
+footer{
+    margin: 0;
+    background-color: lightblue;
+    padding: 0.5rem 0;
+    width: 100%;
+}
+.nosc{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+}
+footer ul li{
+    text-align: center;
+    width: 20%;
+}
+footer ul{
+    width: 25%;
+    text-align: center;
+    margin: 0 auto;
+}
+footer ul li a{
+    display: block;
+    color: gray;
+    text-decoration: none;
+    font-size: 0.5rem;
+}
+footer ul li + li{
+    border-left: 1px solid gray;
+}
+.now{
+    text-decoration: underline;
+}

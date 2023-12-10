@@ -1,0 +1,26 @@
+@charset "utf-8";
+main{
+    margin: 0 1rem;
+}
+.frame{
+    display: flow-root;
+}
+table{
+    float: right;
+}
+table, th, td{
+    border: 1px solid black;
+    margin: 0.5rem;
+}
+th, td{
+    padding: 0.5rem;
+}
+.frame li{
+    list-style: none;
+    margin: 0.5rem 0;
+    background-image: url(../it/img/Q4tcuWObvPkGGEy1702213199_1702213287.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: auto 20px;
+    padding-left: 30px;
+}
