@@ -1,0 +1,189 @@
+@charset "utf-8";
+
+body {
+    font-family: "genkaimincho", serif;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+    background-color: #cccccc;
+    color: #333333;
+    font-size: 15px;
+    line-height: 2;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #3583aa;
+    text-decoration: none;
+}
+
+header {
+    width: 960px;
+    height: 100px;
+    margin: 50px auto 0;
+}
+
+.global-nav {
+    display: flex;
+    justify-content: right;
+}
+
+.global-nav li {
+    width: 100px;
+    list-style: none;
+    font-size: 20px;
+    text-align: center;
+    background-color: #131215;
+    border-left: rgb(212, 41, 41) solid 3px;
+}
+
+.global-nav li:last-child {
+    border-right: rgb(212, 41, 41) solid 3px;
+}
+
+.global-nav li a {
+    display: block;
+    width: 100%;
+    color: #f5f5f5;
+}
+
+#index {
+    background-image: url(img/20240207_115805.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.fire {
+    color: red;
+}
+
+.water {
+    color: blue;
+}
+
+.wood {
+    color: rgb(0, 176, 0);
+}
+
+.light {
+    color: gold;
+}
+
+.darkness {
+    color: rgb(119, 0, 119);
+}
+
+.flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+main {
+    width: 700px;
+    margin: 0 10px;
+}
+
+.item {
+    width: 30%;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.item img {
+    width: 100%;
+}
+
+.item p {
+    font-size: 0.7rem;
+}
+
+.contents {
+    display: flex;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.sidebar {
+    width: 200px;
+    margin: 0 10px 0 30px;
+}
+
+.wr {
+    clear: both;
+    background-color: rgba(240, 248, 255, 0.4);
+    padding: 35px 0;
+}
+
+#reizetsu .item {
+    width: 40%;
+}
+
+.sidebar ul {
+    list-style-position: inside;
+}
+
+.sidebar h2 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.sidebar a {
+    color: #2c2a30;
+}
+
+.mb {
+    margin-bottom: 10px;
+}
+
+#gouzetsu {
+    background-image: url(img/abstract-grunge-backdrop-dark-silhouette-modern-design-generative-ai_188544-12702.avif);
+    background-position: center;
+}
+
+#reizetsu {
+    background-image: url(img/ダウンロード.jpg);
+    background-position: center;
+}
+
+footer {
+    text-align: center;
+    color: #ffffff;
+    padding: 20px 0;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+#index footer {
+    margin: 150px auto 0 auto;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+section {
+    margin-bottom: 15px;
+}

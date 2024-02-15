@@ -1,0 +1,5 @@
+ページ内遷移
+　gouzetsu.htmlの205～274
+　reizetsu.htmlの71,72
+疑似クラス
+　index.html、gouzetsu.html、reizetsu.htmlのheaderタグの中のglobal-navクラスの中の最後のliタグ
